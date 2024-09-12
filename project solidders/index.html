@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylt.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-main">
+        <h3 id="header-text">BATTALION FORCE MANAGEMENT</h3>
+    </div>
+    <div class="form-main">
+        <form class="form-div" action="">
+            <input class="input-form"  type="text" placeholder="FullName" id="fullname">
+            <input class="input-form" type="text" placeholder="Rank" id="rank">
+            <input class="input-form" type="text" placeholder="Position" id="position">
+            <input class="input-form" type="text" placeholder="Platoon" id="platton">
+            <input class="input-form" type="number" placeholder="Mission Time (seconds)" id="mission-time">
+            <select name="" id="select-input" >
+                <option value="active">Active</option>
+                <option value="inactive">InActive</option>
+            </select>
+            <input id="submit-input" type="submit" value="Add Personnel">
+        </form>
+    </div>
+    <div class="table-div">
+        <div class="header-table">
+            <h4 id="header-table-text">Forces Overview</h4>
+        </div>
+        <div>
+            <table id="table">
+                <tr class="table-head">
+                    <th class="head-table">FullName</th>
+                    <th class="head-table">Rank</th>
+                    <th class="head-table">Position</th>
+                    <th class="head-table">Platoon</th>
+                    <th class="head-table">Status</th>
+                    <th class="head-table">Actions </th>
+                </tr>
+                <tbody id="table-body">
+                    
+                </tbody>
+    
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
